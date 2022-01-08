@@ -1,0 +1,11 @@
+task helloWorld {
+	doLast {
+		println "Hi Shervin!"
+	}
+}
+
+task byeWorld {
+	doLast {
+		println "bye Shervin! version: " + version
+	}
+}
